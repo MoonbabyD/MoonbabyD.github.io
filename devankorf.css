@@ -69,7 +69,7 @@ img{
 	}
 .pageicon-down{
 	margin-left: 655px;
-	padding-top: 120px;
+	margin-bottom: 40px;
 	}
 .pageicon-down2{
 	margin-left: 655px;
@@ -91,7 +91,7 @@ img{
 	margin-right: 300px;
 	}
 .container-fluid2{
-	height: 750px;
+	height: 760px;
 	width: 1500px;
 	color: #989898;
 	font-family: 'Lato', sans-serif;
@@ -148,7 +148,32 @@ img{
 	margin-top: 100px;
 	margin-left: 700px;
 	}
-	
+.linkicongit{
+	display: inline-block;
+	margin-left: 100px;
+	color: white;
+	margin-right: 20px;
+	margin-top: 20px;
+	}
+.linkicongit a{
+	color: #404040;
+	}
+.linkiconin{
+	display: inline-block;
+	margin-left: 10px;
+	margin-bottom: 50px;
+	}
+.linkiconin a{
+	color: #0066FF;
+	}
+.linkiconblog{
+	display: inline-block;
+	margin-left: 20px;
+	margin-bottom: 50px;
+	}
+.linkiconblog a{
+	color:#FFFFFF;
+	}
 #novice{
 	display: inline-block;
 	float: left;
