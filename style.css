@@ -1,9 +1,11 @@
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
     
-    .ip-header h1{  padding-top: 550px;
+    .ip-header h1{  padding-top: 950px;
     }
-
+    
+    .browser{  margin-bottom: -200px;
+    }
 }
 
 /* Landscape tablets and medium desktops */
@@ -19,7 +21,7 @@
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
     
-     .ip-header h1{  padding-top: 50px;
+     .ip-header h1{  padding-top: 10px;
     }
 
 }
@@ -27,7 +29,7 @@
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
     
-     .ip-header h1{  padding-top: 50px;
+     .ip-header h1{  padding-top: 10px;
     }
 
 }
