@@ -1,5 +1,8 @@
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
+    
+    .ip-header h1{  padding-top: 550px;
+    }
 
 }
 
@@ -15,11 +18,17 @@
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
+    
+     .ip-header h1{  padding-top: 50px;
+    }
 
 }
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
+    
+     .ip-header h1{  padding-top: 50px;
+    }
 
 }
 
@@ -72,8 +81,9 @@ a {
 }
 
 .ip-header h1 {
+    position: relative;
 	text-align: center;
-    margin-top: 300px;
+    padding-top: 300px;
     color: dodgerblue;
 }
 
