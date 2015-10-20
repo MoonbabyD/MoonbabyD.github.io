@@ -1,15 +1,32 @@
+/* Media queries */
+
+@media screen and (max-width: 45em) {
+
+	.ip-main h2 {
+		font-size: 2.25em;
+		font-size: 10vw;
+    }
+    .ip-header h1{
+        padding-top: 0px;
+	}
+
+	.box {
+		width: 100%%;
+	}
+
+}
+
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
-    
-    .ip-header h1{  padding-top: 950px;
-    }
-    
-    .browser{  margin-bottom: -200px;
-    }
+
 }
 
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
+    .ip-header h1{ 
+        padding-top: 700px;
+    }
+        
 
 }
 
@@ -20,25 +37,24 @@
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
-    
-     .ip-header h1{  padding-top: 10px;
-    }
 
 }
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
     
-     .ip-header h1{  padding-top: 10px;
+    .ip-header h1{
+        padding-top: 0px;
     }
 
 }
+
 
 html{
     -webkit-text-size-adjust:100%;
 }
 
-body{margin:0;
+body{ margin:0;
 
 }
 
@@ -52,7 +68,7 @@ body {
 }
 
 .container-fluid{
-    height: 22px;
+    height: 25px;
     width: 100%;
     border-radius: 2px;
     position: absolute;
@@ -66,11 +82,44 @@ body {
 
 }
 
+#file a{
+    position: absolute;
+    margin-left: 75px;
+    font-size: 1.7em;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: -10px;
+}
+
+#view a{
+    position: absolute;
+    margin-left: 127px;
+    font-size: 1.7em;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: -10px;
+}
+    
+    
+    
+
+#dk img{
+    position: absolute;
+    height: 56px;
+    width: 130px;
+    margin-left: -35px;
+    margin-top: -9px;
+    display: inline-block;
+}
+
 a {
 	color: #f0f0f0;
 	text-decoration: none;
 	outline: none;
 }
+
 
 .ip-header {
 	position: fixed;
@@ -83,7 +132,6 @@ a {
 }
 
 .ip-header h1 {
-    position: relative;
 	text-align: center;
     padding-top: 300px;
     color: dodgerblue;
@@ -364,17 +412,3 @@ a {
 	fill: #fff;
 }
 
-/* Media queries */
-
-@media screen and (max-width: 45em) {
-
-	.ip-main h2 {
-		font-size: 2.25em;
-		font-size: 10vw;
-	}
-
-	.box {
-		width: 100%%;
-	}
-
-}
