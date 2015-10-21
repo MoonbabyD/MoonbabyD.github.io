@@ -86,3 +86,21 @@
 	init();
 
 })();
+
+function myFunction(){
+    document.body.style.background = "url('http://24.media.tumblr.com/tumblr_m951tsh1ca1qzmjdxo1_500.jpg') repeat" ;
+}
+
+function oneFunction(){
+    document.body.style.background =
+"url('http://onehdwallpaper.com/wp-content/uploads/2015/07/Beautiful-Mountain-View-Green-Nature-Wallpaper.jpg')";
+}
+
+
+function threeFunction(){
+    document.body.style.background =
+"url('http://images8.alphacoders.com/397/397989.jpg')";
+}
+
+
+
