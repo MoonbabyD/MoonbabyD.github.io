@@ -29,12 +29,12 @@
     
     .ip-header h2{
         
-        padding-bottom: 1100px;
-        margin-bottom: 1100px;
+        
+        margin-bottom: 2000px;
     }
         
     .ip-main{
-        
+        max-width: 400px;
         
     }
 
@@ -113,7 +113,7 @@ a {
 
 
 .ip-header {
-	position: fixed;
+	position: absolute;
 	top: 0;
 	z-index: 100;
 	min-height: 460px;
@@ -122,10 +122,11 @@ a {
 	background: #f1f1f1;
 }
 
-.ip-header h2 {
+.ip-header p {
 	text-align: center;
     padding-top: 300px;
     color: dodgerblue;
+    font-size: 4em;
 }
 
 .ip-logo,
