@@ -8,6 +8,8 @@
     }
     .ip-header h1{
         padding-top: 0px;
+        padding-top: 100px;
+        margin-top: 100px;
 	}
 
 	.box {
@@ -46,6 +48,8 @@
     .ip-header h1{
         padding-top: 0px;
         margin-top: 0px;
+        padding-top: 100px;
+        margin-top: 100px;
     }
 
 }
