@@ -27,11 +27,10 @@
 /* Portrait phones and smaller */
 @media only screen and (max-device-width: 480px) {
     
-    .ip-header h1{
-        padding-top: 0px;
-        margin-top: 0px;
-        padding-bottom: 1000px;
-        margin-bottom: 1000px;
+    .ip-header h2{
+        
+        padding-bottom: 300px;
+        margin-bottom: 300px;
     }
         
     .ip-main{
@@ -123,7 +122,7 @@ a {
 	background: #f1f1f1;
 }
 
-.ip-header h1 {
+.ip-header h2 {
 	text-align: center;
     padding-top: 300px;
     color: dodgerblue;
