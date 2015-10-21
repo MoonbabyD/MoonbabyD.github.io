@@ -30,13 +30,12 @@
     .ip-header h1{
         padding-top: 0px;
         margin-top: 0px;
-        padding-bottom: 400px;
-        margin-bottom: 400px;
+        padding-bottom: 1000px;
+        margin-bottom: 1000px;
     }
         
     .ip-main{
-        width: 300px;
-        height: 500px;
+        
         
     }
 
