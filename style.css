@@ -27,7 +27,7 @@
 /* Portrait phones and smaller */
 @media only screen and (max-device-width: 480px) {
     
-    .ip-header h2{
+    .ip-header p{
         
         
         margin-bottom: 2000px;
